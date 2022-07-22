@@ -1,17 +1,21 @@
 <template>
   <!--<img alt="Vue logo" src="./assets/logo.png">-->
  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/>-->
-  <BuscarPokemon/>
+  <!--<BuscarPokemon/>-->
+  <PokemonPage/>
 
 </template>
 
 <script>
-import BuscarPokemon from './components/BuscarPokemon.vue'
+import PokemonPage from './components/PokemonPage.vue'
+
+
 
 export default {
   name: 'App',
   components: {
-    BuscarPokemon
+   
+    PokemonPage
 }
 }
 </script>
